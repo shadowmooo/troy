@@ -12,51 +12,10 @@
     <bookmark url="file://D:/IDE/troy/utils/src/main/resources" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b166acb6-4103-4cab-8c2a-8c127f8179e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webstage_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/m_model.15hXLg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/m_model.15hXLg.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/ranger.1e4SyA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/ranger.1e4SyA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/rangerDB.E5YSDw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/rangerDB.E5YSDw.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a25bb50-7bf1-4cb5-8627-26a2b769de11/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/webstage_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/webstage_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/scala_test/Test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/scala_test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala_test/scala_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala_test/src/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/src/main/scala/com/troy/App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/src/main/scala/com/troy/TopK.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/com/troy/App$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/com/troy/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/com/troy/TopK$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/com/troy/TopK.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_test1/target/classes/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/troy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstage/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstage/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstage/webstage.iml" afterDir="false" />
+    <list default="true" id="b166acb6-4103-4cab-8c2a-8c127f8179e2" name="Default Changelist" comment="Hive Analysis Test">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" beforeDir="false" afterPath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="204">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -149,7 +108,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/IDE/troy/hive_test" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -189,7 +148,6 @@
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataTest.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java" />
         <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/spark_test/pom.xml" />
@@ -201,6 +159,7 @@
         <option value="D:/IDE/troy/hive_test/pom.xml" />
         <option value="&lt;f2b8f33b-91e3-49fb-bd52-25eb19edc3f3&gt;/Desktop/opertion_data.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9a25bb50-7bf1-4cb5-8627-26a2b769de11/console.sql" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" />
       </list>
     </option>
   </component>
@@ -257,7 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,13 +226,35 @@
             </path>
             <path>
               <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="troy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +272,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/IDE/troy/hive_test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -515,8 +496,24 @@
       <workItem from="1556414314458" duration="2040000" />
       <workItem from="1556500720550" duration="15381000" />
       <workItem from="1556523300886" duration="430000" />
-      <workItem from="1556528729630" duration="626000" />
+      <workItem from="1556528729630" duration="1301000" />
+      <workItem from="1556587104630" duration="686000" />
     </task>
+    <task id="LOCAL-00001" summary="s">
+      <created>1556529433425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556529433426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hive Analysis Test">
+      <created>1556529740033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556529740033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -537,7 +534,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78342000" />
+    <option name="totallyTimeSpent" value="79703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,8 +547,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.1769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.17895442" />
       <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.1735925" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,16 +566,17 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932975" visible="true" weight="0.22237961" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5021097" weight="0.28854313" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
       <window_info anchor="bottom" id="REST Client" order="16" weight="0.4427157" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.40876946" />
+      <window_info anchor="bottom" id="SVN Repositories" order="19" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -634,18 +633,56 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="s" />
+    <MESSAGE value="Hive Analysis Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hive Analysis Test" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="204" column="24" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15960">
@@ -957,10 +994,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="204">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1018,7 +1064,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webstage</last-edited>
+          <last-edited>hive_test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
