@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>spark_test1</module>
+      <module>opentsdb</module>
   </modules>
   <name>troy</name>
   <!-- FIXME change it to the project's website -->

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="generate_data" />
         <module name="spark_test1" />
-        <module name="hive_test" />
+        <module name="java-client" />
+        <module name="generate_data" />
         <module name="utils" />
+        <module name="opentsdb" />
+        <module name="hive_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

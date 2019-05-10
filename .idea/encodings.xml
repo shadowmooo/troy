@@ -2,8 +2,8 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/opentsdb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_test1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
     <file url="file://D:/IDE/troy/generate_data" charset="UTF-8" />
     <file url="file://D:/IDE/troy/hive_test" charset="UTF-8" />
     <file url="file://D:/IDE/troy/utils" charset="UTF-8" />

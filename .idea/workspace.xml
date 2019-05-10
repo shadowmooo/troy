@@ -8,14 +8,31 @@
       <artifact name="webstage:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://D:/IDE/troy/utils/src/main/resources" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b166acb6-4103-4cab-8c2a-8c127f8179e2" name="Default Changelist" comment="Hive Analysis Test">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b166acb6-4103-4cab-8c2a-8c127f8179e2" name="Default Changelist" comment="添加空值处理和修改日期处理类型">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opentsdb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" beforeDir="false" afterPath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java" beforeDir="false" afterPath="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateTest.java" beforeDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java" beforeDir="false" afterPath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java" beforeDir="false" afterPath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/TimestampDiff.java" beforeDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisData.class" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisData.class" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisDataMain.class" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisDataMain.class" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/DateTest.class" beforeDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/DateUtil.class" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/DateUtil.class" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/JDBCUtil.class" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/JDBCUtil.class" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/MySqlUtil.class" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/MySqlUtil.class" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/classes/com/troy/uitl/TimestampDiff.class" beforeDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/hive_test-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/hive_test-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="D:/IDE/troy/hive_test/target/hive_test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="D:/IDE/troy/hive_test/target/hive_test-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +42,8 @@
     <ignored path="D:/IDE/troy/hive_test/target/" />
     <ignored path="$PROJECT_DIR$/spark_test/target/" />
     <ignored path="$PROJECT_DIR$/spark_test1/target/" />
+    <ignored path="$PROJECT_DIR$/opentsdb/target/" />
+    <ignored path="D:/TROY/utils/opentsdb-client-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +88,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/IDE/troy/generate_data/src/main/java/CreateData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="237">
+              <caret line="258" column="86" selection-start-line="258" selection-start-column="86" selection-end-line="258" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#AnalysisData#0" />
+                <element signature="docComment;method#countByOperator#0;class#AnalysisData#0" />
+                <element signature="method#countByOperator#0;class#AnalysisData#0" />
+                <element signature="e#0#158#2" />
+                <element signature="n#count_by_operator#0" />
+                <element signature="e#0#69#1" />
+                <element signature="docComment;method#countByItemname#0;class#AnalysisData#0" />
+                <element signature="method#countByItemname#0;class#AnalysisData#0" />
+                <element signature="e#0#84#2" />
+                <element signature="n#count_by_itemname#0" />
+                <element signature="e#0#69#1" />
+                <element signature="docComment;method#countByDepartment#0;class#AnalysisData#0" />
+                <element signature="method#countByDepartment#0;class#AnalysisData#0" />
+                <element signature="e#0#89#2" />
+                <element signature="n#count_by_department#0" />
+                <element signature="e#0#73#1" />
+                <element signature="docComment;method#calulateTimeByOperator#0;class#AnalysisData#0" />
+                <element signature="method#calulateTimeByOperator#0;class#AnalysisData#0" />
+                <element signature="e#0#126#1" />
+                <element signature="n#time_distance_operator#0" />
+                <element signature="e#0#92#1" />
+                <element signature="docComment;method#averageTimeByOperator#0;class#AnalysisData#0" />
+                <element signature="method#averageTimeByOperator#0;class#AnalysisData#0" />
+                <element signature="e#0#105#2" />
+                <element signature="n#average_time_distance_operator#0" />
+                <element signature="e#0#106#1" />
+                <element signature="docComment;method#calulateTimeByitenname#0;class#AnalysisData#0" />
+                <element signature="n#time_distance_itemname#0" />
+                <element signature="e#0#92#1" />
+                <element signature="docComment;method#averageTimeByitenname#0;class#AnalysisData#0" />
+                <element signature="method#averageTimeByitenname#0;class#AnalysisData#0" />
+                <element signature="docComment;method#closeConnection#0;class#AnalysisData#0" />
+                <element signature="method#closeConnection#0;class#AnalysisData#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -100,55 +173,38 @@
       <find>Timestamp</find>
       <find>tez.runtime.io.sort.mb</find>
       <find>time_diff</find>
+      <find>executeQuery</find>
+      <find>HIVE_MEMORY_SQL</find>
+      <find>System</find>
+      <find>ParseException</find>
+      <find>system</find>
+      <find>itemname</find>
+      <find>itenname</find>
     </findStrings>
     <replaceStrings>
       <replace>DateUtilv2</replace>
       <replace>operator</replace>
       <replace>category</replace>
+      <replace>itenname</replace>
+      <replace>itemname</replace>
     </replaceStrings>
   </component>
+  <component name="GOROOT" path="D:/IDE/sdk/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="D:/IDE/troy/hive_test" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/pom.xml" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/troy/App.java" />
-        <option value="$PROJECT_DIR$/scala_test/src/Test.scala" />
-        <option value="D:/IDE/troy/utils/src/main/java/BigNumber.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/keduox/util/JDBCUtil.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/Bpp.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/Ass.kt" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/Apps.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/Md5.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/MD5Encrypt.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/picExcel.java" />
-        <option value="$PROJECT_DIR$/webstage/web/index.jsp" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/Escape.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/CTool.java" />
-        <option value="D:/IDE/troy/utils/src/main/java/common/Counter.java" />
-        <option value="D:/IDE/troy/utils/pom.xml" />
-        <option value="D:/IDE/troy/utils/src/test/java/common/DateUtilv2Test.java" />
-        <option value="D:/IDE/troy/utils/src/test/java/frame/Calculator.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/keduox/App.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateTest.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/keduox/util/DateUtil.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/keduox/data/GenerateProcessData.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/CreateData.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateUtil.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/TimestampDiff.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MysqlUtil.java" />
         <option value="D:/IDE/troy/utils/src/main/java/common/DateHandler.java" />
         <option value="D:/IDE/troy/utils/src/test/java/common/DateHandlerTest.java" />
         <option value="D:/IDE/troy/utils/src/main/java/common/DateUtilv2.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/resources/GenerateProcessData.properties" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/data/GenerateProcessData.java" />
-        <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/data/GeneerateOpertionData.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataTest.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java" />
-        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java" />
         <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/spark_test/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -159,6 +215,40 @@
         <option value="D:/IDE/troy/hive_test/pom.xml" />
         <option value="&lt;f2b8f33b-91e3-49fb-bd52-25eb19edc3f3&gt;/Desktop/opertion_data.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9a25bb50-7bf1-4cb5-8627-26a2b769de11/console.sql" />
+        <option value="$PROJECT_DIR$/go-download-master/.vscode/launch.json" />
+        <option value="$PROJECT_DIR$/go-download-master/main.go" />
+        <option value="$PROJECT_DIR$/webstage/src/Test.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/App.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/util/HttpClientImpl.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/util/OpentsdbClient.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/OpentsdbTset.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/OpentsdbTest.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/resources/opentsdb.properties" />
+        <option value="D:/TROY/utils/opentsdb-client-master/src/main/java/org/opentsdb/client/ConnectionKeepAliveStrategy.java" />
+        <option value="D:/TROY/utils/opentsdb-client-master/src/main/java/org/opentsdb/client/PoolingHttpClient.java" />
+        <option value="D:/TROY/utils/opentsdb-client-master/src/test/java/org/opentsdb/client/PoolingHttpClientTest.java" />
+        <option value="D:/TROY/utils/opentsdb-client-master/src/main/java/org/opentsdb/client/HttpClientImpl.java" />
+        <option value="D:/TROY/utils/opentsdb-client-master/pom.xml" />
+        <option value="$PROJECT_DIR$/opentsdb/src/test/java/com/troy/OpentsdbTestTest.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/test/java/com/troy/AppTest.java" />
+        <option value="$PROJECT_DIR$/opentsdb/pom.xml" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/TSDB.java" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/opentsdb/src/main/java/com/troy/TSDBTest.java" />
+        <option value="D:/IDE/troy/utils/src/main/java/Tags.java" />
+        <option value="D:/IDE/troy/utils/src/main/java/DateTime.java" />
+        <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/data/GeneerateOpertionData.java" />
+        <option value="D:/IDE/troy/generate_data/src/main/java/CreateData.java" />
+        <option value="D:/IDE/troy/generate_data/src/main/resources/GenerateProcessData.properties" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateUtil.java" />
+        <option value="D:/IDE/troy/generate_data/src/main/java/com/troy/data/GenerateProcessData.java" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateTest.java" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/App.java" />
+        <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java" />
         <option value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" />
       </list>
     </option>
@@ -200,6 +290,15 @@
           <item name="hive_test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="opentsdbclient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="opentsdbclient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -216,10 +315,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="troy" type="b2602c69:ProjectViewProjectNode" />
               <item name="hive_test" type="462c0819:PsiDirectoryNode" />
@@ -250,15 +394,109 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="troy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="troy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+              <item name="opentsdb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="troy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="hive&#10;mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GO_FMT" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowREST Client.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -270,36 +508,46 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/IDE/troy/hive_test" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2761021" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="common" />
+      <recent name="org.opentsdb.client" />
       <recent name="com.troy" />
+      <recent name="common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.troy.util" />
+      <recent name="com.keduox.util" />
+      <recent name="common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LI\IdeaProjects\troy\opentsdb\src\main\resources" />
+      <recent name="C:\Users\LI\IdeaProjects\troy\opentsdb\src\main\java\com\troy\util" />
+      <recent name="D:\IDE\troy\utils\src\test\java\frame" />
+      <recent name="D:\IDE\troy\utils\src\main\java\common" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LI\IdeaProjects\troy\spark_test1\src\main\resources" />
       <recent name="C:\Users\LI\IdeaProjects\troy\spark_test1\src\main" />
       <recent name="D:\IDE\troy\utils\src\test\java\frame" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.keduox.util" />
-      <recent name="common" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDE\troy\utils\src\test\java\frame" />
-      <recent name="D:\IDE\troy\utils\src\main\java\common" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -319,20 +567,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateData">
-    <configuration name="AnalysisData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.troy.AnalysisData" />
-      <module name="hive_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.troy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AnalysisDataMain">
     <configuration name="AnalysisDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.troy.AnalysisDataMain" />
       <module name="hive_test" />
@@ -346,9 +581,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.troy.App" />
-      <module name="spark_test1" />
+      <module name="hive_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.troy.*" />
@@ -366,15 +601,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopK" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.troy.TopK" />
-      <module name="spark_test1" />
+    <configuration name="TSDBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.troy.TSDBTest" />
+      <module name="opentsdb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.troy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.tsdb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="opentsdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.troy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.troy" />
+      <option name="MAIN_CLASS_NAME" value="com.troy.AppTest" />
+      <option name="METHOD_NAME" value="tsdb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="go-download-master" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="go-download-master" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -453,20 +751,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnalysisData" />
-      <item itemvalue="Application.AnalysisDataMain" />
-      <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.TopK" />
+      <item itemvalue="Application.TSDBTest" />
       <item itemvalue="Application.CreateData" />
+      <item itemvalue="Application.AnalysisDataMain" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AppTest.tsdb" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.32" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateData" />
-        <item itemvalue="Application.TopK" />
-        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.AnalysisDataMain" />
-        <item itemvalue="Application.AnalysisData" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CreateData" />
+        <item itemvalue="Application.TSDBTest" />
+        <item itemvalue="JUnit.AppTest.tsdb" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +795,15 @@
       <workItem from="1556500720550" duration="15381000" />
       <workItem from="1556523300886" duration="430000" />
       <workItem from="1556528729630" duration="1301000" />
-      <workItem from="1556587104630" duration="686000" />
+      <workItem from="1556587104630" duration="1413000" />
+      <workItem from="1556590480623" duration="4198000" />
+      <workItem from="1557019177047" duration="4264000" />
+      <workItem from="1557037346301" duration="4185000" />
+      <workItem from="1557105561516" duration="21249000" />
+      <workItem from="1557134903418" duration="29000" />
+      <workItem from="1557191824561" duration="12633000" />
+      <workItem from="1557364754170" duration="18646000" />
+      <workItem from="1557451149303" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1556529433425</created>
@@ -513,28 +819,64 @@
       <option name="project" value="LOCAL" />
       <updated>1556529740033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hive Analysis Test">
+      <created>1556587933135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556587933135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sql">
+      <created>1557194969013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557194969013</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add 2 method">
+      <created>1557384706067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557384706067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateUtilv2Test_getDistanceTime - 2019.04.23 at 16h 50m 20s.xml">
-      <configuration name="DateUtilv2Test.getDistanceTime" configurationId="JUnit" />
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 35m 23s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateUtilv2Test - 2019.04.23 at 16h 50m 42s.xml">
-      <configuration name="DateUtilv2Test" configurationId="JUnit" />
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 35m 45s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateUtilv2Test - 2019.04.23 at 16h 50m 59s.xml">
-      <configuration name="DateUtilv2Test" configurationId="JUnit" />
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 36m 03s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateUtilv2Test - 2019.04.23 at 16h 51m 56s.xml">
-      <configuration name="DateUtilv2Test" configurationId="JUnit" />
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 37m 51s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateUtilv2Test - 2019.04.23 at 16h 52m 41s.xml">
-      <configuration name="DateUtilv2Test" configurationId="JUnit" />
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 41m 12s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 41m 58s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 42m 12s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpentsdbTestTest_getData2 - 2019.05.06 at 15h 44m 19s.xml">
+      <configuration name="OpentsdbTestTest.getData2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_tsdb - 2019.05.06 at 16h 19m 44s.xml">
+      <configuration name="AppTest.tsdb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_tsdb - 2019.05.06 at 16h 36m 57s.xml">
+      <configuration name="AppTest.tsdb" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79703000" />
+    <option name="totallyTimeSpent" value="146493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,30 +891,30 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.17895442" />
-      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.1735925" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49506903" visible="true" weight="0.2191689" />
+      <window_info id="Structure" order="1" sideWeight="0.504931" side_tool="true" weight="0.23391421" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.503055" side_tool="true" weight="0.1735925" />
+      <window_info id="Favorites" order="6" sideWeight="0.504931" side_tool="true" weight="0.23391421" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="0" weight="0.29420084" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.20226309" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.2503536" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49932975" visible="true" weight="0.2733711" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.24220963" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932975" visible="true" weight="0.22237961" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932975" weight="0.22237961" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.20113315" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5021097" weight="0.28854313" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.24220963" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5021097" weight="0.2875354" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3286119" />
       <window_info anchor="bottom" id="REST Client" order="16" weight="0.4427157" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.40876946" />
@@ -582,7 +924,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18230563" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.24262735" />
@@ -590,45 +932,6 @@
       <window_info anchor="right" id="Key Promoter X" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.3297587" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.17761394" />
-      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.1735925" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.503055" side_tool="true" weight="0.1735925" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="0" weight="0.32956153" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3125884" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.2503536" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5021097" weight="0.28854313" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
-      <window_info anchor="bottom" id="REST Client" order="16" weight="0.4427157" />
-      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32956153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Remote Host" order="9" side_tool="true" weight="0.3297587" />
-      <window_info anchor="right" id="Key Promoter X" order="10" weight="0.3297587" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -676,337 +979,401 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <MESSAGE value="Hive Analysis Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hive Analysis Test" />
+    <MESSAGE value="HTTP Download" />
+    <MESSAGE value="sql" />
+    <MESSAGE value="add 2 method" />
+    <MESSAGE value="添加空值处理和修改日期处理类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加空值处理和修改日期处理类型" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateUtil.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15960">
-          <caret line="844" column="39" lean-forward="true" selection-start-line="844" selection-start-column="39" selection-end-line="844" selection-end-column="39" />
+        <state relative-caret-position="226">
+          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/TimestampDiff.java">
+    <entry file="jar://D:/IDE/jar/opentsdb-client.jar!/org/opentsdb/client/request/Query.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="122">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/utils/src/main/java/common/DateUtil.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/internal/bind/TypeAdapters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6684">
-          <caret line="90" column="41" lean-forward="true" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        <state relative-caret-position="134">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/utils/src/main/java/common/DateHandler.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/TypeAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="341" column="7" lean-forward="true" selection-start-line="341" selection-start-column="7" selection-end-line="341" selection-end-column="7" />
+        <state relative-caret-position="152">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/utils/src/test/java/common/DateHandlerTest.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/Gson.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="117">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#3048#3261#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/utils/src/main/java/BigNumber.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="117">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/hive_test/src/main/resources/log4j.properties">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/internal/ConstructorConstructor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/jar/opentsdb-client.jar!/org/opentsdb/client/request/QueryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/jar/opentsdb-client.jar!/org/opentsdb/client/request/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/generate_data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190" />
+      </provider>
+    </entry>
+    <entry file="file://D:/TROY/utils/opentsdb-client-master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/jar/opentsdb-client.jar!/org/opentsdb/client/util/Aggregator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0.jar!/net/opentsdb/core/TSDB.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="257" column="21" selection-start-line="257" selection-start-column="21" selection-end-line="257" selection-end-column="21" />
+          <folding>
+            <element signature="e#10890#10891#0" expanded="true" />
+            <element signature="e#10937#10938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0.jar!/net/opentsdb/utils/Config.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/core/TSDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="354" column="9" selection-start-line="354" selection-start-column="9" selection-end-line="354" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/src/test/java/com/troy/AppTest.java" />
+    <entry file="file://D:/IDE/troy/hive_test/src/main/resources/connection.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/IDE/troy/utils/src/main/java/common/DateUtilv2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="779" column="36" selection-start-line="779" selection-start-column="36" selection-end-line="779" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/IDE/troy/generate_data/src/main/resources/GenerateProcessData.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/src/main/java/com/troy/OpentsdbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1193">
+          <caret line="323" column="45" lean-forward="true" selection-start-line="323" selection-start-column="45" selection-end-line="323" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataTest.java" />
-    <entry file="uml://JAVA/com.troy.AnalysisDataMain">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.troy.AnalysisDataMain</OriginalElement>
-          <nodes>
-            <node x="" y="">com.troy.AnalysisDataMain</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="93.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="644" column="17" selection-start-line="644" selection-start-column="17" selection-end-line="644" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java">
+    <entry file="jar://C:/IDE/jdk1.8/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="114">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/core/TSQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="171" column="21" lean-forward="true" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+          <folding>
+            <element signature="e#13442#13443#0" expanded="true" />
+            <element signature="e#13470#13471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/core/DataPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3747">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/utils/src/main/java/Tags.java" />
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/core/Tags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/src/maven/mavenjar/net/opentsdb/opentsdb/2.4.0/opentsdb-2.4.0-sources.jar!/net/opentsdb/utils/DateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/utils/src/main/java/DateTime.java" />
+    <entry file="file://D:/IDE/src/maven/mavenjar/commons-lang/commons-lang/2.6/commons-lang-2.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190" />
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/utils/src/main/java/BigNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/src/main/java/com/troy/TSDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opentsdb/src/test/java/com/troy/OpentsdbTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/utils/src/main/java/common/StringHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="883">
+          <caret line="1545" column="26" selection-start-line="1545" selection-start-column="26" selection-end-line="1545" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/TimestampDiff.java" />
+    <entry file="file://D:/IDE/troy/generate_data/src/main/resources/GenerateProcessData.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/data/GeneerateOpertionData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="874">
+          <caret line="51" column="81" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="817" column="50" selection-start-line="817" selection-start-column="44" selection-end-line="817" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#26958#26985#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/data/GenerateProcessData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        <state relative-caret-position="190">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/IDE/jdk1.8/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="189" column="16" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/IDE/jdk1.8/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/DateTest.java" />
+    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/MySqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/uitl/JDBCUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        <state relative-caret-position="-266">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/util/PropertiesUtil.java">
+    <entry file="jar://D:/IDE/src/maven/mavenjar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="258">
+          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/IDE/jdk1.8/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/IDE/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/IDE/troy/generate_data/src/main/java/com/troy/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spark_test/src/main/scala/com/troy/App.scala" />
-    <entry file="file://$PROJECT_DIR$/spark_test1/src/test/scala/com/troy/AppTest.scala" />
-    <entry file="file://$PROJECT_DIR$/spark_test1/src/main/scala/com/troy/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_test1/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_test1/src/main/resources/hive-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4085" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/IDE/src/maven/mavenjar/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/SparkSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/IDE/src/maven/mavenjar/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/SparkSession.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="835" column="8" selection-start-line="835" selection-start-column="8" selection-end-line="835" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_test1/src/main/scala/com/troy/TopK.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#356#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://924dda9b-e5c0-4011-84e0-a701788a822f/collation/armscii8_general_ci" />
-    <entry file="das://924dda9b-e5c0-4011-84e0-a701788a822f/collation/armscii8_bin" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/924dda9b-e5c0-4011-84e0-a701788a822f/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/924dda9b-e5c0-4011-84e0-a701788a822f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4a6b65c-6e76-4fd2-9820-5f6b1d164938/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ada17388-cddb-480d-98e9-fcb54461ab7c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9df1a055-b2a3-4117-a87d-1cef3f7083b2/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85acfe24-97d0-4ff7-b7ce-a00dcc226477/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d26fc381-8d05-4c2b-8870-7868c7d85f15/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://9a25bb50-7bf1-4cb5-8627-26a2b769de11/schema/hive_analysis/table/average_time_distance_system">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/9a25bb50-7bf1-4cb5-8627-26a2b769de11.TABLE:hive_analysis.average_time_distance_operator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>9a25bb50-7bf1-4cb5-8627-26a2b769de11.TABLE:hive_analysis.average_time_distance_operator</OriginalElement>
-          <nodes>
-            <node x="" y="">9a25bb50-7bf1-4cb5-8627-26a2b769de11.TABLE:hive_analysis.average_time_distance_operator</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="73.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a25bb50-7bf1-4cb5-8627-26a2b769de11/schema/hive_analysis/table/average_time_distance_operator">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/App.java" />
     <entry file="file://D:/IDE/troy/generate_data/src/main/java/CreateData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/IDE/troy/generate_data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_test1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/IDE/troy/hive_test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        <state relative-caret-position="133">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisDataMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9a25bb50-7bf1-4cb5-8627-26a2b769de11/schema/hive_analysis/table/count_by_itemname">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a25bb50-7bf1-4cb5-8627-26a2b769de11/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/IDE/troy/hive_test/target/classes/com/troy/AnalysisData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9571#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/IDE/troy/hive_test/src/main/java/com/troy/AnalysisData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="237">
+          <caret line="258" column="86" selection-start-line="258" selection-start-column="86" selection-end-line="258" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#AnalysisData#0" />
+            <element signature="docComment;method#countByOperator#0;class#AnalysisData#0" />
+            <element signature="method#countByOperator#0;class#AnalysisData#0" />
+            <element signature="e#0#158#2" />
+            <element signature="n#count_by_operator#0" />
+            <element signature="e#0#69#1" />
+            <element signature="docComment;method#countByItemname#0;class#AnalysisData#0" />
+            <element signature="method#countByItemname#0;class#AnalysisData#0" />
+            <element signature="e#0#84#2" />
+            <element signature="n#count_by_itemname#0" />
+            <element signature="e#0#69#1" />
+            <element signature="docComment;method#countByDepartment#0;class#AnalysisData#0" />
+            <element signature="method#countByDepartment#0;class#AnalysisData#0" />
+            <element signature="e#0#89#2" />
+            <element signature="n#count_by_department#0" />
+            <element signature="e#0#73#1" />
+            <element signature="docComment;method#calulateTimeByOperator#0;class#AnalysisData#0" />
+            <element signature="method#calulateTimeByOperator#0;class#AnalysisData#0" />
+            <element signature="e#0#126#1" />
+            <element signature="n#time_distance_operator#0" />
+            <element signature="e#0#92#1" />
+            <element signature="docComment;method#averageTimeByOperator#0;class#AnalysisData#0" />
+            <element signature="method#averageTimeByOperator#0;class#AnalysisData#0" />
+            <element signature="e#0#105#2" />
+            <element signature="n#average_time_distance_operator#0" />
+            <element signature="e#0#106#1" />
+            <element signature="docComment;method#calulateTimeByitenname#0;class#AnalysisData#0" />
+            <element signature="n#time_distance_itemname#0" />
+            <element signature="e#0#92#1" />
+            <element signature="docComment;method#averageTimeByitenname#0;class#AnalysisData#0" />
+            <element signature="method#averageTimeByitenname#0;class#AnalysisData#0" />
+            <element signature="docComment;method#closeConnection#0;class#AnalysisData#0" />
+            <element signature="method#closeConnection#0;class#AnalysisData#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1411,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20301624" />
               </list>
             </option>
           </splitter-proportions>
@@ -1056,7 +1423,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20301624" />
               </list>
             </option>
           </splitter-proportions>
@@ -1064,12 +1431,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hive_test</last-edited>
+          <last-edited>opentsdb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.2761021" />
               </list>
             </option>
           </splitter-proportions>
@@ -1081,7 +1447,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2761021" />
               </list>
             </option>
           </splitter-proportions>
