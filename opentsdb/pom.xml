@@ -84,6 +84,17 @@
             <artifactId>opentsdb</artifactId>
             <version>2.4.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.opentsdb</groupId>
+            <artifactId>java-client</artifactId>
+            <version>2.1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.opentsdb</groupId>
+            <artifactId>java-client</artifactId>
+            <version>2.1.0-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 
